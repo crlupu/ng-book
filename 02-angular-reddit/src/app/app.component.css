@@ -1,11 +1,12 @@
-.form-container {
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
 form {
-  margin: auto;
   text-align: left;
-  display: inline-block;
 }
 
 input {
@@ -15,3 +16,4 @@ input {
 label, input, button {
   margin-top: 5px;
 }
+

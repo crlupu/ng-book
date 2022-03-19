@@ -1,1 +1,23 @@
-<p>article works!</p>
+<div class="card">
+  <div class="votes">
+    <div class="value">
+      {{ votes }}
+    </div>
+    <div class="label">
+      Points
+    </div>
+  </div>
+  <div class="article-details">
+    <a class="article-title" href="{{ link }}">
+      {{ title }}
+    </a>
+    <div class="actions">
+      <a href (click)="voteUp()">
+        <span>&#9650;</span> upvote
+      </a>
+      <a href (click)="voteDown()">
+        <span>&#9660;</span> downvote
+      </a>
+    </div>
+  </div>
+</div>
