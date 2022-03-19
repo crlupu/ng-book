@@ -1,0 +1,17 @@
+.form-container {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  text-align: left;
+  display: inline-block;
+}
+
+input {
+  display: block;
+}
+
+label, input, button {
+  margin-top: 5px;
+}
